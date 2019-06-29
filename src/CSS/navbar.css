@@ -1,0 +1,27 @@
+.border-bottom  {
+    border-bottom-color: coral;
+}
+
+.navbar-expand-lg {
+  padding-bottom:5px;
+  background: 
+   linear-gradient(to left,  green, blue),
+   linear-gradient(to left,  green, blue); 
+  background-size:100% 2px;
+  background-position:bottom 0 left 0,bottom 1% left 0;
+  background-repeat:no-repeat;
+}
+ul{
+  float: right;
+  margin-top: -1.5%;
+  margin-right: 10%;
+}
+
+h1{
+  display: inline-block;
+  float: right;
+  margin-top: 0.5%;
+  color: gray;
+  width: 1px;
+
+}
