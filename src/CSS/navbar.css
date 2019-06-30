@@ -1,27 +1,79 @@
-.border-bottom  {
-    border-bottom-color: coral;
-}
+
 
 .navbar-expand-lg {
-  padding-bottom:5px;
-  background: 
-   linear-gradient(to left,  green, blue),
-   linear-gradient(to left,  green, blue); 
-  background-size:100% 2px;
-  background-position:bottom 0 left 0,bottom 1% left 0;
+  /* padding-bottom:5px; */
+  background: linear-gradient(to left,  green, blue);
+  background-size:100% 6%;
+  background-position:bottom 0 left 0;
   background-repeat:no-repeat;
+  padding-bottom: 0.75%;
+  padding-top: 1%;
+  /* border:solid 1px; */
+  display: inline-block;
+  width: 100%;
+  font-family: 'yekan'; 
+  
+  
 }
+
 ul{
   float: right;
   margin-top: -1.5%;
   margin-right: 10%;
 }
 
-h1{
-  display: inline-block;
-  float: right;
-  margin-top: 0.5%;
-  color: gray;
-  width: 1px;
 
+/* .navbar-nav>li:first-child{
+  border-left: thin solid gray;
+} */
+ 
+.navbar-nav>li:last-child{
+  margin-right: 30%;
+}
+
+#navItemContain{
+  position: absolute;
+  display: inline-block;
+  top: 2.25%;
+  right: 8%;
+  /* bottom: 10%; */
+  
+}
+
+.navbar-brand{
+  position: relative;
+  display: inline-block;
+  float: left;
+  /* border: solid 1px; */
+  left: 10%;
+
+}
+
+#nav-line{
+  color: gray;
+  display: inline-block;
+  margin: auto;
+  height: 120%;
+}
+
+@font-face {
+  font-family: 'davat';
+  src: url('../fonts/BDavat.eot');
+  src: url('../fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/BDavat.woff2') format('woff2'),
+      url('../fonts/BDavat.woff') format('woff'),
+      url('../fonts/BDavat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yekan';
+  src: url('../fonts/BYekan.eot');
+  src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/BYekan.woff2') format('woff2'),
+      url('../fonts/BYekan.woff') format('woff'),
+      url('../fonts/BYekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

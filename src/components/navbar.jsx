@@ -8,21 +8,23 @@ const NavBar = () => {
                 <img src='https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg' className="p-1" width='15%' height='15%'></img>
                 pooneh
             </a>
-            {/* <div className="rtl collapse navbar-collapse" id="navbarSupportedContent"> */}
-                <ul class="rtl navbar-nav mr-auto p-4 mr-5">
+            <div id="navItemContain">
+                <ul class="rtl navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">ورود   | <span class="sr-only">(current)</span></a>
+                        <a class="nav-link d-flex" href="#">ورود<span class="sr-only">(current)</span></a>
                     </li>
+
+                    <div id="nav-line">|</div>
                     
-                    <li class="nav-item mr-0">
+                    <li class="nav-item ">
                         <a class="nav-link" href="#">عضویت</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link ml-4" href="#">راهنما</a>
+                        <a class="nav-link" href="#">راهنما</a>
                     </li>
                 </ul>
-            {/* </div> */}
+            </div>
 
         </nav>
      );
