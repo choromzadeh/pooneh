@@ -1,0 +1,43 @@
+{
+  "shop": [
+    {
+      "id": 1,
+      "title": "keramat",
+      "area": "kalej"
+    },
+    {
+      "id": 2,
+      "title": "hamid",
+      "area": "hafez"
+    },
+    {
+      "area": "kalej",
+      "id": 3
+    }
+  ],
+
+  "city":[
+    {
+      "id":1,
+      "value":"th",
+      "label":"تهران"
+    },
+    {
+      "id":2,
+      "value":"ah",
+      "label":"اهواز"
+    },
+    {
+      "id":3,
+      "value":"ma",
+      "label":"مشهد"
+    },
+    {
+      "id":4,
+      "value":"ka",
+      "label":"کرج"
+    }
+
+  ]
+
+}
