@@ -34,9 +34,9 @@ ul{
 #navItemContain{
   position: absolute;
   display: inline-block;
-  top: 2.25%;
+  top: 3%;
   right: 8%;
-  /* bottom: 10%; */
+  font-size: 100%;
   
 }
 
@@ -46,6 +46,7 @@ ul{
   float: left;
   /* border: solid 1px; */
   left: 10%;
+  font-size: 120%;
 
 }
 

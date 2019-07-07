@@ -1,0 +1,7 @@
+{
+    "shop":[
+        {"id":1, "title":"keramat", "area":"kalej"},
+        {"id":2, "title":"hamid", "area":"hafez"}
+        
+    ]
+}

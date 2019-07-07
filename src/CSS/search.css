@@ -1,0 +1,180 @@
+.row{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#inputText{
+    border: 0;
+}
+
+#inputText:placeholder-shown {
+    font-size: 150%;
+    font-family: 'yekan';
+  }
+
+.fa.fa-search{
+    font-size: 200%;
+    color: #fff;
+   
+}
+
+#submitButton{
+    /* display: inline-block; 
+    right: 75%; */
+     /* position: absolute;  */
+     /* top:5%;
+    height: 120%;  */
+    /* padding: 12% 19%; */
+    margin-top: 12%;
+    background: linear-gradient(to right,rgb(114, 233, 114), rgb(129, 234, 248));
+    
+}
+
+#dropdownMenuButton{
+    display: inline-block;
+    position: absolute;
+    width: 650%;
+    text-align: center;
+    font-size: 250%;
+    padding: 105% 0%;
+    margin-right: 30%;
+
+
+    
+}
+
+.dropdown{
+    /* width: 120%; */
+}
+
+/* #dropContainer{
+    float: right;
+    margin-top: 0;
+    font-family: 'yekan';
+    margin-right: 1.5%;
+    text-align: center;
+    padding-right: 20%;
+    
+} */
+
+.form-control {
+     border: 0; 
+}
+
+.input-group-text{
+    border: 0;
+    background: #fff;
+}
+
+.fa.fa-map-marker{
+    font-size: 220%;
+}
+
+.input-group-text.purple.lighten-3 {
+    border: 0;
+    /* height: 150%; */
+    
+    
+}
+
+
+/* #inputBoxContainer{
+    display: inline-block;
+    width: 92%;
+    font-family: 'yekan';
+}
+
+#dropContainer{
+    float: right;
+    margin-top: 0;
+    font-family: 'yekan';
+    margin-right: 1.5%;
+    text-align: center;
+    
+}
+
+
+
+/* #dropdownMenuButton{
+    padding: 28% 0%;
+    width: 150%;
+    text-align: center; 
+} */ */
+
+.dropdown-toggle-ellipsis::after {
+    display: none;
+  }
+  
+  .dropdown-toggle-ellipsis::before {
+    display: inline-block;
+    padding: 0.5rem;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f078";
+    float: right;
+    font-size: 110%;
+  }
+
+.input-wrapper1 {
+    /* display:inline-block; */
+    position: relative
+}
+.input-wrapper1:after {
+    font-family: 'FontAwesome';
+    content: '\f041';
+    position: absolute;
+    margin: 0;
+    bottom: 1%;
+    font-size: 300%;
+    width: 1%;
+    
+}
+
+.rtl.dropdown-menu{
+    font-size: 130%;
+}
+
+/* .input-wrapper2 {
+    display:inline-block;
+    position: relative
+}
+.input-wrapper2:after {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    /* right: 550%; */
+    /* margin: auto; */
+    /* bottom: 5%; */
+    /* font-size: 250%; */
+    /* width: 30%; */
+    /* padding-left: 610%; */
+    /* border: solid 1px; */
+    /* float: left; */
+    
+    
+/* } */ */
+
+#searchIcon{
+    left: 60%;
+}
+
+  @font-face {
+    font-family: 'davat';
+    src: url('../fonts/BDavat.eot');
+    src: url('../fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BDavat.woff2') format('woff2'),
+        url('../fonts/BDavat.woff') format('woff'),
+        url('../fonts/BDavat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'yekan';
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BYekan.woff2') format('woff2'),
+        url('../fonts/BYekan.woff') format('woff'),
+        url('../fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
